@@ -13,6 +13,7 @@ group :test do
   gem 'factory_girl_rails'
   gem 'timecop'
   gem 'launchy'
+  gem 'syntax'
 end
 
 

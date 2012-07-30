@@ -1,1 +1,2 @@
---color
+--format progress --color
+--format html -o "specs.html"

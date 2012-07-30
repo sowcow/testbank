@@ -1,4 +1,21 @@
-source 'https://rubygems.org'
+source :rubygems
+
+
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'cucumber-rails'
+end
+
+group :test do
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'factory_girl_rails'
+  gem 'timecop'
+  gem 'launchy'
+end
+
+
 
 gem 'rails', '3.2.6'
 

@@ -4,7 +4,7 @@ source :rubygems
 
 group :development, :test do
   gem 'rspec-rails'
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', require: false
 end
 
 group :test do
